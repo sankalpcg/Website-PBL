@@ -1,0 +1,131 @@
+*
+body {
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+transition: 0.5s;
+font-family: "Century Gothic", sans-serif;
+background-image: linear-gradient(#00000040, #00000060), url('background-3.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+.navlist{
+width: 80%;
+position: fixed;
+padding: 5px 10%;
+background-color:#110e2bbb;
+}
+.navlist ul{
+display: flex;
+list-style: none;
+}
+.navlist ul li:first-child{
+flex: 1;
+color: #ffffff;
+}
+.navlist ul h4{
+font-family: serif;
+}
+.navlist ul a{
+margin-left: 10px;
+margin-left: 10px;
+font-family: "century gothic", sans-serif;
+font-size: 1rem;
+color: white;
+text-decoration: solid;
+}
+.navlist ul a:hover{
+color: #ff8800;
+}
+.header {
+width: 100%;
+height: 50vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+color: #ffffff;
+text-align: center;
+padding-top: 30vh;
+}
+.header h1 {
+word-spacing: 8px;
+margin-bottom: 15px;
+font-family: serif;
+
+}
+.header button {
+padding: 10px;
+border: none;
+outline: none;
+background: none;
+border: 1px solid #ff8800;
+color: #ffffff;
+}
+.header button:hover{
+background: #ff8800;
+}
+
+.container {
+width: 80%;
+margin: auto;
+margin-bottom: 30px;
+}
+.container h2{
+color: #ff8800;
+text-align: center;
+margin: 30px;
+font-family: 'Times New Roman', Times, serif;
+letter-spacing: 5px;
+}
+.container p {
+color: #ff8800;
+text-align: left;
+font-family: 'Times New Roman', Times, serif;
+margin-right: 5px;
+margin-left: 2px;
+}
+.container h2::before, .container h2::after{
+content: "-----";
+letter-spacing: -5px;
+font-weight: lighter;
+margin: 0 20px 0 10px;
+}
+.container .row{
+display: flex;
+justify-content: space-between;
+}
+.container .column{
+width: 32%;
+height: auto;
+position: relative;
+overflow: hidden;
+}
+.container .column p:hover {
+    background-color: #3a3836;
+}
+.container .column img{
+width: 50%;
+height: auto;
+background-color: #ffffff04;
+}
+.container .column img:hover {
+background-color: #ff8800;
+}
+.container .column a:last-child{
+position: absolute;
+display: block;
+width: 100%;
+height: 0;
+top: 99%;
+bottom: 0;
+left: 0;
+bottom: 0;
+background-color: #ff8800c0;
+text-align: center;
+padding-top: 14vw;
+font-size: 3vw;
+color: #ffffff;
+text-decoration: none;
+}
